@@ -7,14 +7,14 @@ import { AppComponent } from './app.component';
 import { OoFormComponent } from './oo-form/oo-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { CodeComponent } from './core/form/code/code.component';
-import { CommonModule } from '../../node_modules/@angular/common';
+import { CustomInputComponent } from './core/form/custom-input/custom-input.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     OoFormComponent,
-    CodeComponent
+    CustomInputComponent
   ],
   imports: [
     BrowserModule,
